@@ -1,0 +1,32 @@
+﻿The Banananimals
+Amanda Gaston- Visualization
+Scott Wittie- Debugger
+Nathan Cruz- Cleaner
+Ebony Martin- Statistician
+Problem Statement a.k.a Decompose The Ask
+Throughout this project we will be exploring whether the increased population growth of cities is contributing to the increased number of breweries across the US. We will be looking at the average population growth of cities over time, average number of breweries over time, and income growth over time
+Identify Data Sources
+We will be using the US Census Data CSV files and BreweryDB’s API. The US Census Data will provide population per city overtime and BreweryDB’s API will provide a list of breweries and the city the breweries are located in.
+Define Strategy and Metrics
+Metrics
+* Population growth over time
+* Average income growth over time
+* Rate of new brewery openings
+* Number of breweries per city
+* Population size vs the number of breweries
+Description of Data Analysis Tools You Plan to Use
+To conduct our analysis, we will be using the following tools:
+* Predictive analytics
+* Statistical growth rate
+* T test
+* Jupyter notebook
+* Pandas
+* Matplotlib
+* Brewery DB API
+* Excel
+Describe the Data Products Your Project Will Produce
+To present our analysis and conclusion in a visually appealing manner, we will be using the following techniques:
+* Charts of statistical analysis
+* Tables of statistical analysis
+* US Census Bureau CSV files
+* BreweryDB API dataframe
