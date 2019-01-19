@@ -10,7 +10,7 @@ new_url = url + api_key
 
 # Lists
 pages = []
-####pages = list(range(1,150)) *try a small number first to avoid overloading API*
+####pages = list(range(131,262)) *try a small number first to avoid overloading API*
 
 indexes = []
 indexes = list(range(0,50))
@@ -100,8 +100,7 @@ brewery_data.head()
 brewery_data.count()
 
 # Export to CSV file
-brewery_data.to_csv("Output/brewery_data_part1.csv",
+brewery_data.to_csv("Output/brewery_data_part2.csv",
                    encoding="utf-8", index=False, header=True)
 
-## Will need to pull Part 2 of data with another account or wait until next day.
-# API limit is 200/day
+## Will need to merge Part 1 and Part 2 CSV files into 1 CSV file
