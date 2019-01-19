@@ -69,6 +69,7 @@ for page in pages:
         except KeyError:
             closed.append(["null"])
             continue
+time.sleep(5)
 
 # Count lists
 len(est), len(names), len(local), len(region), len(country), len(bizstatus), len(closed)
