@@ -10,7 +10,7 @@ new_url = url + api_key
 
 # Lists
 pages = []
-pages = list(range(1,150))
+####pages = list(range(1,150)) *try a small number first to avoid overloading API*
 
 indexes = []
 indexes = list(range(0,50))
